@@ -1,0 +1,341 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+.container {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    padding: 0 22%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+}
+
+.body {
+    /* background-color: aliceblue; */
+    display: flex;
+    width: 55%;
+    height: 85%;
+    margin: 2% auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-right: 2%;
+}
+
+.user {
+    flex: 3;
+    border: 5px;
+    border: 5px solid;
+    border-color: slategray;
+}
+
+.desc {
+    flex: 2;
+    /* background-color: aqua; */
+    margin-top: 3%;
+    border: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    border-style: solid;
+    border-color: slategray;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* background-color: green; */
+}
+
+.requests {
+    flex: 2;
+    /* background-color: pink; */
+    margin-bottom: 6%;
+    border: 5px solid;
+    border-color: slategray;
+}
+
+.connections {
+    flex: 3;
+    /* background-color: white; */
+    border: 5px;
+    border-style: solid;
+    border-color: slategray;
+}
+
+.blue {
+    width: inherit;
+    height: 30%;
+    background-color: royalblue;
+}
+
+.edu {
+    width: inherit;
+    height: 60px;
+    background-color: slategray;
+}
+
+.reqbanner {
+    width: inherit;
+    height: 60px;
+    background-color: slategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.conbanner {
+    width: inherit;
+    height: 60px;
+    background-color: slategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#pfp {
+    width: 20%;
+    margin: 65px 0 0 5%;
+    border-radius: 60%;
+}
+
+.name {
+    font-size: 36px;
+}
+
+.map {
+    width: 12px;
+}
+
+.city {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info {
+    margin: 13% 0 0 14%;
+    scale: 120%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bio {
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+.gear {
+    width: 16px;
+}
+
+.edit {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 12px;
+    font-size: 18px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.edtitle {
+    font-size: 30px;
+    color: white;
+    padding: 1.5% 0 0 5%;
+}
+
+.dojo {
+    padding: 3% 0 0 5%;
+}
+
+.dojotitle {
+    font-size: 30px;
+}
+
+.dates {
+    font-style: italic;
+    font-size: 21px;
+    color: gray;
+    padding-top: 12px;
+}
+
+.eddesc {
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.numberbox {
+    background-color: darkgray;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 150%;
+}
+
+.reqtitle {
+    color: white;
+    display: flex;
+    margin-left: 5%;
+    font-size: 24px;
+}
+
+.conreq {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+}
+
+.Todd {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Phil {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-top: 5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.icon {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+}
+
+.nameicon {
+    display: flex;
+    align-items: center;
+}
+
+.checkx {
+    display: flex;
+}
+
+.check {
+    width: 35px;
+    height: 35px;
+}
+
+.conbox {
+    width: 50px;
+    height: 20px;
+    background-color: darkgray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 150%;
+}
+
+.contitle {
+    font-size: 24px;
+    color: white;
+    margin-left: 10%;
+}
+
+.cons {
+    /* background-color: purple; */
+    flex: 5;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    margin: 6% 0 0 10%;
+}
+
+.viewmore {
+    /* background-color: aquamarine; */
+    flex: 1;
+    border-top: 5px solid;
+    border-color: slategray;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+    color: blue;
+}
+
+.conbody {
+    display: flex;
+    flex-direction: column;
+    height: 86.5%;
+    /* color: palevioletred; */
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.nav-links {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 14px
+}
+
+/* a {
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 14px
+} */
+
+.active {
+    color: slategray;
+}
+
+.active-1 {
+    color: white;
+}
+
+.btn {
+    box-shadow: 2px 2px 1px 1px black;
+    background-color: #17a2b8;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbutton {
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+    padding-right: 2%;
+}

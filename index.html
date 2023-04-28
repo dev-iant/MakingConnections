@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="nav-title">Profile</h1>
+            <div class="nav-links">
+                <p><a href="#" class="active">Home</a></p>
+                <p><a href="#" class="active-1">My Profile</a></p>
+                <p><a href="#" class="active">Find Connections</a></p>
+            </div>
+            <div class="navbutton"><p><button class="btn">Sign Out</button></p>  
+            </div>
+        </div>
+        <div class="body">
+            <div class="left">
+                <div class="user">
+                    <div class="blue">
+                        <div><img src="jarrod.jpg" alt="user" id="pfp"></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Jarrod Vickers</div>
+                        <div class="city"><img src="map-marker.png" alt="map" class="map">&nbsp; San Antonio, TX</div>
+                        <div class="bio">Developer | Designer | Problem-solver<br>Master of cat-loving and video games.</div>
+                        <div class="edit"><img src="gear.png" alt="edit" class="gear"><a href="#" onclick="changename()">&nbsp; edit profile</a></div>
+                    </div>
+                </div>
+                <div class="desc">
+                    <div class="edu">
+                        <div class="edtitle">Education</div>
+                    </div>
+                    <div class="dojo">
+                        <div class="dojotitle">Coding Dojo - Full Stack Bootcamp</div>
+                        <div class="dates">Mar 2023 - Sept 2023</div>
+                        <div class="eddesc">White belt at JavaScript. More belts are on the way.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="requests">
+                    <div class="reqbanner">
+                        <div class="numberbox">2</div>
+                        <div class="reqtitle">Connection Requests</div>
+                    </div>
+                    <div class="conreq">
+                        <div class="Todd">
+                            <div class="nameicon">
+                                <div><img src="todd-s.jpg" alt="Todd" class="icon"></div>
+                                <div>&nbsp;&nbsp;Todd E</div>
+                            </div>
+                            <div class="checkx">
+                                <div><img src="accept-circle.png" alt="accept" class="check" onclick="ToddAccept()">&nbsp;</div>
+                                <div><img src="close-circle.png" alt="close" class="check" onclick="ToddRemove()"></div>
+                            </div>
+                        </div>
+                        <div class="Phil">
+                            <div class="nameicon">
+                                <div><img src="phil-s.jpg" alt="Phil" class="icon"></div>
+                                <div>&nbsp;&nbsp;Phil K</div>
+                            </div>
+                            <div class="checkx">
+                                <div><img src="accept-circle.png" alt="accept" class="check" onclick="PhilAccept()">&nbsp;</div>
+                                <div><img src="close-circle.png" alt="close" class="check" onclick="PhilRemove()"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="connections">
+                    <div class="conbanner">
+                        <div class="conbox">500</div>
+                        <div class="contitle">Your Connections</div>
+                    </div>
+                    <div class="conbody">
+                        <div class="cons">
+                            <div class="nameicon">
+                                <div><img src="adrien-s.jpg" alt="Adrien" class="icon"></div>
+                                <div>&nbsp;&nbsp;Adrien D</div>
+                            </div>
+                            <div class="nameicon">
+                                <div><img src="anne-s.jpg" alt="Anne" class="icon"></div>
+                                <div>&nbsp;&nbsp;Anne J</div>
+                            </div>
+                            <div class="nameicon">
+                                <div><img src="alayne-s.jpg" alt="Alayne" class="icon"></div>
+                                <div>&nbsp;&nbsp;Alayne T</div>
+                            </div>
+                            <div class="nameicon">
+                                <div><img src="arry-s.jpg" alt="Arry" class="icon"></div>
+                                <div>&nbsp;&nbsp;Arry Y</div>
+                            </div>
+                        </div>
+                        <div class="viewmore"><a href="#">View More</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
